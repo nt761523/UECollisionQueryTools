@@ -10,6 +10,7 @@
 #include "CollisionQueryTestActor.h"
 #include "CollisionQueryDrawDebugHelpers.h"
 #include "Engine/World.h"
+#include "Engine/OverlapResult.h"
 
 ACollisionQueryTestActor::ACollisionQueryTestActor(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
